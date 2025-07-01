@@ -94,6 +94,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elsa.Studio.Translations", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elsa.Studio.Host.HostedWasm", "src\hosts\Elsa.Studio.Host.HostedWasm\Elsa.Studio.Host.HostedWasm.csproj", "{25BA3052-4F17-4D24-9AE9-01FBD75E8804}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorApp1", "samples\BlazorApp1\BlazorApp1.csproj", "{93BBA0FF-2F41-2785-A367-39015908E8AB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -224,6 +228,10 @@ Global
 		{25BA3052-4F17-4D24-9AE9-01FBD75E8804}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{25BA3052-4F17-4D24-9AE9-01FBD75E8804}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{25BA3052-4F17-4D24-9AE9-01FBD75E8804}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93BBA0FF-2F41-2785-A367-39015908E8AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93BBA0FF-2F41-2785-A367-39015908E8AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93BBA0FF-2F41-2785-A367-39015908E8AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93BBA0FF-2F41-2785-A367-39015908E8AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -264,6 +272,7 @@ Global
 		{DE57FD2C-3874-486A-89B1-D982726A1189} = {D66B9A40-8608-46F3-9868-625C50EACE43}
 		{76C60D97-FA22-4023-BDB3-6BC47D097E40} = {C5288F1B-F4E5-423C-AEE8-049996613668}
 		{25BA3052-4F17-4D24-9AE9-01FBD75E8804} = {2AA1AEE9-017E-4F8B-B5FC-2BEA37E83514}
+		{93BBA0FF-2F41-2785-A367-39015908E8AB} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5B8719CC-CF87-45E1-BE1A-13842F951B28}
