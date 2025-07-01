@@ -6,6 +6,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\..\src\hosts\Elsa.Studio.Host.CustomElements\Elsa.Studio.Host.CustomElements.csproj" />
+      <ProjectReference Include="..\..\src\modules\Elsa.Studio.Login.BlazorServer\Elsa.Studio.Login.BlazorServer.csproj" />
     </ItemGroup>
 
 </Project>

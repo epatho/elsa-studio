@@ -4,6 +4,8 @@ using Elsa.Studio.Core.BlazorWasm.Extensions;
 using Elsa.Studio.Extensions;
 using Elsa.Studio.Host.CustomElements.HttpMessageHandlers;
 using Elsa.Studio.Host.CustomElements.Services;
+using Elsa.Studio.Login.Extensions;
+using Elsa.Studio.Login.BlazorServer.Extensions;
 using Elsa.Studio.Models;
 using Elsa.Studio.Shell.Extensions;
 using Elsa.Studio.Workflows.Designer.Extensions;
@@ -35,6 +37,10 @@ builder.Services.AddCore();
 builder.Services.AddShell();
 builder.Services.AddRemoteBackend(backendApiConfig);
 builder.Services.Replace(ServiceDescriptor.Scoped<IRemoteBackendAccessor, ComponentRemoteBackendAccessor>());
+
+builder.Services.AddLoginModule();
+builder.Services.UseElsaIdentity();
+
 builder.Services.AddWorkflowsModule();
 
 var app = builder.Build();
